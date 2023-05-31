@@ -14,7 +14,7 @@ export function Menu() {
       <Main>
         <Input icon={IoSearchOutline} placeholder='Busque por pratos ou ingredientes' />
 
-        <Link to='/'>
+        <Link to='/favorites'>
           <ButtonText title='Meus favoritos' />
         </Link>
 
