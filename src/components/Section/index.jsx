@@ -22,8 +22,6 @@ export function Section({ title, data, icon: Icon, children }) {
             <Card />
         }
       </div>
-
-
     </Container>
   );
 }
