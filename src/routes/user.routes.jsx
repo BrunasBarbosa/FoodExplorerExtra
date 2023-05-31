@@ -1,9 +1,9 @@
 import { Routes, Route } from 'react-router-dom';
-import { Home } from '../pages/Home';
-import { Menu } from '../pages/Menu';
-import { Details } from '../pages/Details';
-// import { Cart } from '../pages/Cart';
-// import { Order } from '../pages/Order';
+import { Home } from '../pages/UserPages/Home';
+import { Menu } from '../pages/UserPages/Menu';
+import { Details } from '../pages/UserPages/Details';
+// import { Cart } from '../pages/UserPages/Cart';
+// import { Order } from '../pages/UserPages/Order';
 
 export function UserRoutes() {
   return (

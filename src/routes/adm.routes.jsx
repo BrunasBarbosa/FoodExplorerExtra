@@ -1,9 +1,9 @@
 import { Routes, Route } from 'react-router-dom';
-import { HomeAdm } from '../pages/HomeAdm';
-import { MenuAdm } from '../pages/MenuAdm';
-import { DetailsAdm } from '../pages/DetailsAdm';
-import { New } from '../pages/New';
-import { Update } from '../pages/Update';
+import { HomeAdm } from '../pages/AdmPages/HomeAdm';
+import { MenuAdm } from '../pages/AdmPages/MenuAdm';
+import { DetailsAdm } from '../pages/AdmPages/DetailsAdm';
+import { New } from '../pages/AdmPages/New';
+import { Update } from '../pages/AdmPages/Update';
 
 export function AdmRoutes() {
   return (

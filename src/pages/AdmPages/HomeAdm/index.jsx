@@ -1,11 +1,11 @@
-import { DishesRepositoryInMemory, MainDishesRepositoryInMemory, MainDishesRepositoryInMemoryTwo } from '../../repositories/DishesRepositoryInMemory';
+import { DishesRepositoryInMemory, MainDishesRepositoryInMemory, MainDishesRepositoryInMemoryTwo } from '../../../repositories/DishesRepositoryInMemory';
 
-import { HeaderAdm } from '../../components/HeaderAdm';
-import { Section } from '../../components/Section';
-import { Slogan } from '../../components/Slogan';
-import { Footer } from '../../components/Footer';
+import { HeaderAdm } from '../../../components/HeaderAdm';
+import { Section } from '../../../components/Section';
+import { Slogan } from '../../../components/Slogan';
+import { Footer } from '../../../components/Footer';
 
-import { Pencil } from '../../assets/icons/Pencil';
+import { Pencil } from '../../../assets/icons/Pencil';
 
 import { Container } from './styles';
 

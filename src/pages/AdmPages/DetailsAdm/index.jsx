@@ -1,16 +1,16 @@
-import { DishesRepositoryInMemory, MainDishesRepositoryInMemory, MainDishesRepositoryInMemoryTwo } from '../../repositories/DishesRepositoryInMemory';
+import { DishesRepositoryInMemory, MainDishesRepositoryInMemory, MainDishesRepositoryInMemoryTwo } from '../../../repositories/DishesRepositoryInMemory';
 
-import { HeaderUser } from '../../components/HeaderUser';
-import { DataDish } from '../../components/DataDish';
-import { Counter } from '../../components/Counter';
-import { Return } from '../../components/Return';
-import { Footer } from '../../components/Footer';
+import { HeaderAdm } from '../../../components/HeaderAdm';
+import { DataDish } from '../../../components/DataDish';
+import { Button } from '../../../components/Button';
+import { Return } from '../../../components/Return';
+import { Footer } from '../../../components/Footer';
 
 import { useParams } from 'react-router-dom';
 
 import { Container, Content } from './styles';
 
-export function Details() {
+export function DetailsAdm() {
   const params = useParams();
 
   function findById() {
@@ -23,8 +23,7 @@ export function Details() {
 
   return (
     <Container>
-      <HeaderUser />
-
+      <HeaderAdm />
       <Content >
         <Return />
         <DataDish data={{
@@ -34,7 +33,7 @@ export function Details() {
           tags: data.tags
         }} />
 
-        <Counter data={data.price} />
+        <Button title='Editar prato' />
       </Content>
 
       <Footer />

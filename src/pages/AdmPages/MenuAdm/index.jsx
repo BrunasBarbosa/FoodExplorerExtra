@@ -1,7 +1,7 @@
-import { HeaderMenu } from '../../components/HeaderMenu';
-import { ButtonText } from '../../components/ButtonText';
-import { Footer } from '../../components/Footer';
-import { Input } from '../../components/Input';
+import { HeaderMenu } from '../../../components/HeaderMenu';
+import { ButtonText } from '../../../components/ButtonText';
+import { Footer } from '../../../components/Footer';
+import { Input } from '../../../components/Input';
 import { Link } from 'react-router-dom';
 import { Container, Main } from './styles';
 import { IoSearchOutline } from 'react-icons/io5';

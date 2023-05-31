@@ -1,12 +1,12 @@
-import { HeaderAdm } from '../../components/HeaderAdm';
-import { InputForm } from '../../components/InputForm';
-import { InputFile } from '../../components/InputFile';
-import { Textarea } from '../../components/Textarea';
-import { TagItem } from '../../components/TagItem';
-import { Select } from '../../components/Select';
-import { Return } from '../../components/Return';
-import { Button } from '../../components/Button';
-import { Footer } from '../../components/Footer';
+import { HeaderAdm } from '../../../components/HeaderAdm';
+import { InputForm } from '../../../components/InputForm';
+import { InputFile } from '../../../components/InputFile';
+import { Textarea } from '../../../components/Textarea';
+import { TagItem } from '../../../components/TagItem';
+import { Select } from '../../../components/Select';
+import { Return } from '../../../components/Return';
+import { Button } from '../../../components/Button';
+import { Footer } from '../../../components/Footer';
 import { Container, Main } from './styles';
 
 export function Update() {
