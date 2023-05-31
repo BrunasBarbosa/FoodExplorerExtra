@@ -20,6 +20,7 @@ export const Main = styled.main`
   
   div:first-child {
     background-color: ${({ theme }) => theme.COLORS.DARK_900};
+    margin-bottom: 3.6rem;
   }
 
   input::placeholder {
@@ -27,7 +28,6 @@ export const Main = styled.main`
   }
 
   button {
-    margin-top: 3.6rem;
     padding: 1rem;
 
     text-align: left;
