@@ -3,8 +3,8 @@ import { Home } from '../pages/UserPages/Home';
 import { Menu } from '../pages/UserPages/Menu';
 import { Details } from '../pages/UserPages/Details';
 import { Favorites } from '../pages/UserPages/Favorites';
+import { Orders } from '../pages/UserPages/Orders';
 // import { Cart } from '../pages/UserPages/Cart';
-// import { Order } from '../pages/UserPages/Order';
 
 export function UserRoutes() {
   return (
@@ -14,7 +14,7 @@ export function UserRoutes() {
       <Route path='/details/:id' element={<Details />}/>
       <Route path='/favorites' element={<Favorites />}/>
       {/* <Route path='/cart' element={<Cart />}/> */}
-      {/* <Route path='/order' element={<Order />}/> */}
+      <Route path='/orders' element={<Orders />}/>
     </Routes>
   );
 }

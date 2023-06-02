@@ -17,15 +17,13 @@ export function Favorites() {
         <Return />
         <h1>Meus favoritos</h1>
           {
-            data.length > 0 ?
+            data &&
               data.map((dishe, index) => (
                 <Favorite
                   key={String(index)}
                   data={dishe}
                 />
               ))
-              :
-              <Card />
           }
       </Content>
     </Container>
